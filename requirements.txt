@@ -1,0 +1,18 @@
+# =============================================================================
+# requirements.txt — Python Automation Toolkit
+# =============================================================================
+# The toolkit is built entirely on Python's standard library.
+# No third-party packages are required to run the core features.
+#
+# However, if you'd like coloured terminal output (optional), install colorama:
+#   pip install colorama
+#
+# To run the test suite:
+#   pip install pytest
+# =============================================================================
+
+# ── Optional enhancements ──
+colorama>=0.4.6   # Cross-platform coloured terminal text (optional)
+
+# ── Development & testing ──
+pytest>=8.0.0     # Test runner
